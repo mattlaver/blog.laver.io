@@ -18,15 +18,24 @@ Two things are required for deploying from Travis:
 
 ## Azure Credentials
 
-Add the following Azure credentials in the build settings:
+The Azure credentials for the Web App are entered into Travis as the following environmental variables:
 
+- AZURE_WA_USERNAME
+- AZURE_WA_PASSWORD
+- AZURE_WA_HOST
+
+Add these in the settings of the travis build:
+
+![image-title-here](/assets/travis_settings.png){:class="img-responsive"}
 
 ## Deploy step
 
-Now Azure is setup and the  add this deploy step to the .travis.yml file:
+Travis recognises azure with the azure_web_apps provider and can be configured easily in a deploy step like this:
 
 ```yml
 deploy:
   skip_cleanup: true
   provider: azure_web_apps
 ```
+
+The skip_cleanup line tells Travis not to clean up the statically generated site (Artifacts) as this is what we want to deploy to Azure. 
