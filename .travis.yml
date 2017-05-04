@@ -10,6 +10,7 @@ cache:
 
 install: 
   - bundle update
+  - bundle install
   - gem install jekyll html-proofer
 
 script:   
