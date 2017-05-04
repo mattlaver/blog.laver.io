@@ -14,7 +14,7 @@ install:
   - gem install jekyll html-proofer
 
 script:   
-  - jekyll build 
+  - bundle exec jekyll build 
   - cd _site
 
 deploy:
