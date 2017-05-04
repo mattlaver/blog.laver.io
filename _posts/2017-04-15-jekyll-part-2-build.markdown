@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Jekyll Continuous Integration with Travis"
+title:  "Jekyll - Part 2 - Build"
 date:   2017-04-15 20:56:02 +0100
 categories: jekyll travis CI
 ---

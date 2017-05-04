@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Jekyll Continuous Delivery with Azure"
+title:  "Jekyll - Part 3 - Deploy"
 date:   2017-04-16 20:56:02 +0100
 categories: jekyll azure travis cd
 ---

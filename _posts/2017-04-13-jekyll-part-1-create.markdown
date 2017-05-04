@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up a blog with Jekyll"
+title:  "Jekyll - Part 1 - Create"
 date:   2017-04-13 20:56:02 +0100
 categories: jekyll ci azure
 ---
