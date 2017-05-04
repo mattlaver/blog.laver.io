@@ -61,4 +61,6 @@ We then point the travis build to the repository that we will be building from:
 
 And bingo - Travis builds the site on code check ins and tests the links on the site.
 
+We even get a nice email with an alert to say if the build is broken or fixed:
 
+![image-title-here](/assets/travis_build_ok.png){:class="img-responsive"}
