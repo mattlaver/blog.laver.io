@@ -11,11 +11,11 @@ Now we have our site that we've setup locally the next requirements are
 - Build the site on each code change pushed to the git repository
 - Perform some sanity tests (check dead links)
 
-# Travis
+# Travis CI
 
 Here enters the CI server. There are plenty of decent CI tools to choose from, TeamCity, Jenkins, Visual Studio Team Services, GoCD, Codefresh, Travis CI.
 
-If I was setting up a CI server for a team of developers I would consider Temcity, Jenkins, VSTS or GoCD but as this is a small personal project I've chosen Travis CI as I know it meets my requirements with minimal effort on my behalf.
+If I was setting up a CI server for a team of developers I would consider Teamcity, Jenkins, VSTS or GoCD but as this is a small personal project I've chosen Travis CI as I know it meets my requirements with minimal.
 
 # Setting up a Travis Build
 
