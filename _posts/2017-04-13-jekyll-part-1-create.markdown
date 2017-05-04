@@ -5,9 +5,9 @@ date:   2017-04-13 20:56:02 +0100
 categories: jekyll ci azure
 ---
 
-I've started this blog to begin recording my thoughts around my experienced with code and the craftsmanship that goes with it.
+I've started this blog to begin recording my thoughts around my experience with delivering software.
 
-I'm also a big fan of automating software so it makes sense that I write up how I automated the blogging platform I'm using.
+I'm a big fan of automating software so it makes sense that I write up how I automated the blogging platform I'm using.
 
 There is certainly no shortage of tools for blogging but before I start throwing code at the solution I had some requirements to think about:
 
