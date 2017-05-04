@@ -21,11 +21,11 @@ After spiking all three I liked them all but found Jekyll the easiest to get thi
 
  # Jekyll
 
-I installed Jekyll up on both a Windows PC and my Macbook Air (MBA). The Windows install and setup was very simple but I wanted to use my MBA as my main machine for blogging as it's so portable. Setting Jekyll up on a MBA is a little more involved and requires jumping through a few more hoops.
+I installed Jekyll on both a Windows and my macOS. The Windows install and setup was very simple but I wanted to use my Macbook Air (MBA) as my main machine for blogging as it's so portable. Setting Jekyll up on a MBA is a little more involved and requires jumping through a few more hoops.
 
 ## Install Ruby (attempt 1)
 
-It turns out that OS X already has Ruby installed and the general wisdom is to not mess with this installation and use a Ruby environment manager for developing with Ruby on OS X.
+macOS already has Ruby installed but the general wisdom is to not mess with this installation and use a Ruby environment manager when writing Ruby on OS X.
 
 ## Install rbenv
 
@@ -107,3 +107,4 @@ bundle exec jekyll serve
 
 Browse to localhost:4000
 
+Excellent - now time to write some posts, install a theme and tweak the settings.
