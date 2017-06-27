@@ -9,9 +9,9 @@ The benefits of architecting software with Dependency Injection in mind are wide
 
 However this does not mean that software is all now beautifully architected - with the [SOLID](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design){:target"_blank" class="external"}  principles engraved in our brains we sometimes forget about one of the older principles of software development - [KISS](https://people.apache.org/~fhanik/kiss.html){:target"_blank" class="external"}.
 
-Dependencies in modern enterprise software is almost always managed with an [Inversion of Control (IoC)](https://martinfowler.com/articles/injection.html){:target"_blank" class="external"} container - and the debates about the use of IoC containers go back a [long time](http://stackoverflow.com/questions/871405/why-do-i-need-an-ioc-container-as-opposed-to-straightforward-di-code){:target"_blank" class="external"}.
+Dependencies in modern enterprise software are almost always managed with an [Inversion of Control (IoC)](https://martinfowler.com/articles/injection.html){:target"_blank" class="external"} container - and the debates about the use of IoC containers go back a [long time](http://stackoverflow.com/questions/871405/why-do-i-need-an-ioc-container-as-opposed-to-straightforward-di-code){:target"_blank" class="external"}.
 
-In the places I've worked at in the last five years I've seen very few applications that do not have an IoC container at their heart and the use of IoC containers encourages all code to be programmed to an interface and injections managed by a bootstrapper for the IoC container. 
+In the places I've worked at in the last five years I've seen very few applications that do not have an IoC container at their heart and the use of IoC containers encourages code to be programmed to an interface and injections managed by a bootstrapper for the IoC container. 
 
 Greg Young in his talk on [8 lines of code](https://www.infoq.com/presentations/8-lines-code-refactoring){:target"_blank" class="external"} argues that defaulting to an IoC container when architecting software can often lead to more complex code, steeper learning curve for new developers and more lines of code to maintain and manage.
 
@@ -148,5 +148,5 @@ And we execute the Handler with another static method:
     }
 ```
 
-Obviously this is quite a simple example and with more complex applications IoC can offer a number of advantages but like all things, I think it's worth not just installing an IoC container by default.
+Obviously this is quite a simple example and with more complex applications IoC can offer a number of advantages but like all things, I think it's worth considering if you really need that IoC container.
 
